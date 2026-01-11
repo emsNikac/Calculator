@@ -64,7 +64,7 @@ Then:
 
 ### Android Emulator Networking
 
-- When running on an Android emulator, the app uses http://10.0.2.2:3000 to access the local backend
+- When running on an Android emulator, the app uses http://10.0.2.2:3000 to access the local backend.
 
 ---
 
