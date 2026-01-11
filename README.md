@@ -44,8 +44,8 @@ Backend Responsibilities
 - User authentication (JWT)
 - User profiles
 - 	Follow / unfollow users
-	•	Tweets, likes, and retweets
-	•	Feed generation
+- 	 weets, likes, and retweets
+- 	 Feed generation
 
 Note: The backend uses in-memory storage (no database).
 
@@ -88,11 +88,8 @@ Then:
 ---
 
 ## Features
-- User registration & login
-- JWT-based authentication
-- Create tweets
-- Like tweets
-- Retweet tweets
+- User authentication
+- Tweets, likes, retweets
 - Follow & unfollow users
 - User profiles with followers/following count
 - Feed with retweets and engagement state
