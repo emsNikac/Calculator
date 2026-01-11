@@ -93,15 +93,15 @@ Mobile Architecture
 ---
 
 ## Features
-	•	User registration & login
-	•	JWT-based authentication
-	•	Create tweets
-	•	Like tweets
-	•	Retweet tweets
-	•	Follow & unfollow users
-	•	User profiles with followers/following count
-	•	Feed with retweets and engagement state
-	•	Logout functionality
+- User registration & login
+- JWT-based authentication
+- Create tweets
+- Like tweets
+- Retweet tweets
+- Follow & unfollow users
+- User profiles with followers/following count
+- Feed with retweets and engagement state
+- Logout functionality
 
 
 
