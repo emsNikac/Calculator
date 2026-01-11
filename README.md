@@ -58,9 +58,9 @@ npm install
 npx expo start
 ```
 Then:
-	•	Press a to open the Android emulator
-	•	Press i to open the iOS emulator
-	•	Or scan the QR code with Expo Go on your phone
+- Press a to open the Android emulator
+- Press i to open the iOS emulator
+- Or scan the QR code with Expo Go on your phone
 
 ### Android Emulator Networking
 
@@ -70,14 +70,14 @@ Then:
 
 ## Architecture Overview
 
-Backend Architecture
+### Backend Architecture
 - NestJS modular architecture
 - Controllers, services, DTOs
 - JWT authentication
 - REST API
 
 
-Mobile Architecture
+### Mobile Architecture
 - React Native + Expo
 - Context API (AuthContext, TweetsContext)
 - Axios API layer
