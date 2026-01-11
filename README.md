@@ -71,24 +71,19 @@ Then:
 ## Architecture Overview
 
 Backend Architecture
-- NestJS feature-based modules
-- Controllers, services, and DTOs
+- NestJS modular architecture
+- Controllers, services, DTOs
 - JWT authentication
-- RESTful API design
-- No database (in-memory state)
+- REST API
+
 
 Mobile Architecture
-- React Native with Expo
-- Context API for global state:
-- AuthContext (authentication & user state)
-- TweetsContext (feed & tweet actions)
+- React Native + Expo
+- Context API (AuthContext, TweetsContext)
 - Axios API layer
-- React Navigation (Auth stack & App stack)
-- Clear separation of:
-- Screens
-- Components
-- API logic
-- Context/state
+- React Navigation
+- Clear separation of Screens, Components, API logic, Context
+
 
 ---
 
