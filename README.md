@@ -41,9 +41,9 @@ The backend will start on:
 http://localhost:3000
 
 Backend Responsibilities
-	•	User authentication (JWT)
-	•	User profiles
-	•	Follow / unfollow users
+- User authentication (JWT)
+- User profiles
+- 	Follow / unfollow users
 	•	Tweets, likes, and retweets
 	•	Feed generation
 
@@ -71,24 +71,24 @@ Then:
 ## Architecture Overview
 
 Backend Architecture
-	•	NestJS feature-based modules
-	•	Controllers, services, and DTOs
-	•	JWT authentication
-	•	RESTful API design
-	•	No database (in-memory state)
+- NestJS feature-based modules
+- Controllers, services, and DTOs
+- JWT authentication
+- RESTful API design
+- No database (in-memory state)
 
 Mobile Architecture
-	•	React Native with Expo
-	•	Context API for global state:
-	•	AuthContext (authentication & user state)
-	•	TweetsContext (feed & tweet actions)
-	•	Axios API layer
-	•	React Navigation (Auth stack & App stack)
-	•	Clear separation of:
-	•	Screens
-	•	Components
-	•	API logic
-	•	Context/state
+- React Native with Expo
+- Context API for global state:
+- AuthContext (authentication & user state)
+- TweetsContext (feed & tweet actions)
+- Axios API layer
+- React Navigation (Auth stack & App stack)
+- Clear separation of:
+- Screens
+- Components
+- API logic
+- Context/state
 
 ---
 
