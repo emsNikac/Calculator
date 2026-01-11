@@ -51,7 +51,7 @@ Note: The backend uses in-memory storage (no database).
 
 ---
 
-Mobile App (React Native + Expo)
+## Mobile App (React Native + Expo)
 ```bash
 cd twitter-mobile
 npm install
@@ -62,11 +62,49 @@ Then:
 	•	Press i to open the iOS emulator
 	•	Or scan the QR code with Expo Go on your phone
 
-Android Emulator Networking
+### Android Emulator Networking
 
 - When running on an Android emulator, the app uses http://10.0.2.2:3000 to access the local backend
 
 ---
+
+## Architecture Overview
+
+Backend Architecture
+	•	NestJS feature-based modules
+	•	Controllers, services, and DTOs
+	•	JWT authentication
+	•	RESTful API design
+	•	No database (in-memory state)
+
+Mobile Architecture
+	•	React Native with Expo
+	•	Context API for global state:
+	•	AuthContext (authentication & user state)
+	•	TweetsContext (feed & tweet actions)
+	•	Axios API layer
+	•	React Navigation (Auth stack & App stack)
+	•	Clear separation of:
+	•	Screens
+	•	Components
+	•	API logic
+	•	Context/state
+
+---
+
+## Features
+	•	User registration & login
+	•	JWT-based authentication
+	•	Create tweets
+	•	Like tweets
+	•	Retweet tweets
+	•	Follow & unfollow users
+	•	User profiles with followers/following count
+	•	Feed with retweets and engagement state
+	•	Logout functionality
+
+
+
 
 
 
