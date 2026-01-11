@@ -98,6 +98,21 @@ Then:
 - Feed with retweets and engagement state
 - Logout functionality
 
+## Technologies Used
+### Backend
+- NestJS
+- TypeScript
+- Node.js
+- JWT
+- bcrypt
+
+### Mobile
+- React Native
+- Expo
+- TypeScript
+- Axios
+- React Navigation
+
 
 
 
